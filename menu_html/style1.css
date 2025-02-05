@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient( to top,black, hotpink,whitesmoke);
+  height: 100%;
+  width: 100%;
+    background-attachment: fixed;
+}
+#header{
+	border: solid 5px red;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	display: flex;
+
+}

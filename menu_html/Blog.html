@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Menu</title>
+	<style type="text/css">
+		+{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			background-color: yellow;
+		}
+		#header{
+			margin: auto;
+			width: 500px;
+			font-family: arial,Helvatica,sans-serif;
+		}
+		ul,ol{
+			list-style: none;
+		}
+		.nav>li{
+			float: left;
+		}
+		.nav.li a{
+			background-color:black ;
+			color: white;
+			text-decoration: none;
+			padding: 10px 12px;
+			display: black;
+		}
+		.navli a:hover{
+			background-color: gray;
+		}
+		.navli ul{
+			display:none;
+			position: absolute;
+			min-width: 140px;
+		}
+		.navli hover>ul{
+			display: block;
+		}
+		.navli ul li{
+			position: relative;
+		}
+		.navli ul li ul{
+			right: -140px;
+			top: 0px;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="color:black">Menu</h1>
+	<h2 Style="color:red">seleccione una opcion</h2>
+	<div id="header">
+		<li><a href="menu.html">Inicio</a></li>
+		<li><a href="Nosotros.html">nosotros</a></li>
+		<ul>
+			<li><a href="Historial.html">historia</a></li>
+			<li><a href="vision.html">visio</a></li>
+			<li><a href="Mision.html">mision</a></li>
+		</ul>
+			<li><a href="Blog.html">BLOG</a></li>
+			<li><a href="Contactanos.html">CONTACTANOS</a></li>
+	</div>
+</body>
+</html>
