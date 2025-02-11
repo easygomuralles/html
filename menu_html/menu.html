@@ -1,69 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Menu</title>
-	<link rel="stylesheet" type="text/css" href="style1.css">
-	<style type="text/css">
-		+{
-			margin: 0px;
-			padding: 0px;
-		}
-		body{
-			background-color: blanchedalmond;
-		}
-		#header{
-			margin: auto;
-			width: 500px;
-			font-family: arial,Helvatica,sans-serif;
-		}
-		ul,ol{
-			list-style: none;
-		}
-		.nav>li{
-			float: left;
-		}
-		.nav.li a{
-			background-color:black ;
-			color: white;
-			text-decoration: none;
-			padding: 10px 12px;
-			display: black;
-		}
-		.navli a:hover{
-			background-color: gray;
-		}
-		.navli ul{
-			display:none;
-			position: absolute;
-			min-width: 140px;
-		}
-		.navli hover>ul{
-			display: block;
-		}
-		.navli ul li{
-			position: relative;
-		}
-		.navli ul li ul{
-			right: -140px;
-			top: 0px;
-		}
-	</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menú</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-	<h1 style="color:black">Menu</h1>
-	<h2 Style="color:red">seleccione una opcion</h2>
-	<div id="header">
-		<li><a href="menu.html">Inicio</a></li>
-		<li><a href="Nosotros.html">nosotros</a></li>
-		<ul>
-			<li><a href="Historial.html">historia</a></li>
-			<li><a href="vision.html">visio</a></li>
-			<li><a href="Mision.html">mision</a></li>
-		</ul>
-			<li><a href="Blog.html">BLOG</a></li>
-			<li><a href="Contactanos.html">CONTACTANOS</a></li>
-	</div>
+    <h2>Seleccione una opción</h2>
+    <div id="header">
+        <ul>
+            <li><a id="f1" href="menu.html">Inicio</a></li>
+            <li><a href="Nosotros.html">Nosotros</a></li>
+            <li>
+                <a href="#">Historia</a>
+                <ul>
+                    <li><a href="Historial.html">Historial</a></li>
+                    <li><a href="vision.html">Visión</a></li>
+                    <li><a href="Mision.html">Misión</a></li>
+                </ul>
+            </li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contactanos.html">Contáctanos</a></li>
+        </ul>
+    </div>
+    <div class="slider-box" data-aos="flip-left" data-aos-duration="2000">
+        
+        <ul>
+            <li>
+                <img src="assets/imagen2.jpg" alt="assets/imagen2.jpg">
+            </li>
+            <li>
+                <img src="assets/imagen2.jpg" alt="assets/imagen2.jpg">
+            </li>
+            <li>
+                <img src="assets/imagen3.jpg" alt="assets/imagen3.jpg">
+            </li>
+            <li>
+                <img src="assets/imagen1.jpg" alt="assets/imagen1.jpg">
+            </li>
+        </ul>
+    </div>
+    <div class="parrafo_principal" data-aos="fade-right" data-aos-duration="1500">
+
+ <p >
+  La informática es una disciplina que se encarga del estudio y desarrollo de sistemas computacionales, así como del procesamiento, almacenamiento y transmisión de datos a través de dispositivos electrónicos. En la actualidad, la informática está presente en todos los aspectos de nuestra vida cotidiana, desde la gestión de información en empresas hasta el acceso a conocimientos en línea, pasando por la automatización de procesos y la creación de redes que interconectan a millones de personas alrededor del mundo. Esta ciencia no solo se limita a la programación de software y hardware, sino que también abarca áreas como la inteligencia artificial, la ciberseguridad y el análisis de grandes volúmenes de datos, lo que hace que sea una herramienta fundamental en la innovación y el progreso tecnológico. La informática ha transformado la forma en que trabajamos, nos comunicamos, nos educamos y nos entretenemos, y continúa evolucionando rápidamente, abriendo nuevas oportunidades y desafíos en diversos sectores como la medicina, la ingeniería, la economía y el arte. En resumen, la informática es la columna vertebral de la era digital, proporcionando las bases para el desarrollo de soluciones tecnológicas que mejoran la calidad de vida y la eficiencia de las organizaciones.
+</p>
+ <img class="imagenes" src="assets/te1.jpeg" alt="assets/te1.jpeg">
+    </div>
+    <div class="parrafo_principal" data-aos="fade-left" data-aos-duration="1500">
+  <p>
+    La tecnología está destinada a transformar nuestras vidas de maneras que apenas comenzamos a imaginar. Con avances como la inteligencia artificial, el Internet de las Cosas (IoT) y la automatización, cada aspecto de nuestra existencia se está viendo mejorado para hacernos la vida más fácil, eficiente y accesible. Por ejemplo, en la medicina, los dispositivos inteligentes permiten diagnósticos más rápidos y tratamientos personalizados, mientras que en la educación, las plataformas en línea brindan oportunidades de aprendizaje a personas de todo el mundo. Además, la tecnología está revolucionando las ciudades, haciendo que sean más inteligentes y sostenibles, reduciendo el consumo de recursos y mejorando la calidad del aire. A medida que la conectividad y la digitalización siguen avanzando, las barreras geográficas se desvanecen y surgen nuevas formas de trabajo, colaboración y creatividad. Sin duda, la tecnología está diseñada para empoderarnos, abrir nuevas posibilidades y enfrentar los desafíos globales, construyendo un futuro más brillante y prometedor para todos.
+  </p>
+  <img class="imagenes" src="assets/tecno.jpeg" alt="assets/tecno.jpeg">
+</div>
+
+<footer>
+    <div class="fond">
+        <h1>Conoce mas sobre la vida tecnologica</h1>
+        <br>
+        <div class="contac">
+            <h1>contactanos</h1>
+            <p>si deseas saber mas sobre la vida cotidiana y como la tecnologia influye puedes contactarnos para saber mucho mas </p>
+            <a href="contactanos.html">Click Me</a>
+        </div>
+        <div class="nosotros">
+            <h1>quienes somos</h1>
+            <p>nosotros somos un pequeño grupo que te mantiene al tanto de la tecnologia y como esta influye en nuestras vidas sin necesidad de que investigues si deseas saber mas sobre nosotros puedes ir a neustra psoter </p>
+        
+            <a href="nosotros.html">Click Me</a>
+
+        </div>
+
+    </div>
+</footer>    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
